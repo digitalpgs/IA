@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Página profesional sobre inteligencia artificial, herramientas, usos, proceso de implementación y precios."
+    />
+    <title>Digital Pages | Inteligencia Artificial</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="topbar">
+        <div class="brand">Digital Pages</div>
+        <div class="topbar-actions">
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="Cambiar tema" title="Cambiar tema">
+            <span class="theme-icon" aria-hidden="true">☾</span>
+          </button>
+          <div class="lang-switch" aria-label="Language switcher">
+            <button class="lang-btn active" data-lang="es">ES</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="ca">CA</button>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="hero.eyebrow">IA para negocios, creatividad y productividad</p>
+          <h1 data-i18n="hero.title">La inteligencia artificial que transforma ideas en resultados</h1>
+          <p class="lead" data-i18n="hero.subtitle">
+            Descubre qué es la IA, cómo funciona, qué herramientas son las más destacadas y cómo elegir la mejor solución según tu objetivo y presupuesto.
+          </p>
+          <div class="hero-actions">
+            <a href="#tools" class="btn btn-primary" data-i18n="hero.primary">Explorar herramientas</a>
+            <a href="#process" class="btn btn-secondary" data-i18n="hero.secondary">Ver proceso de uso</a>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <div class="stat-card">
+            <h3 data-i18n="hero.cardTitle">¿Por qué usar IA?</h3>
+            <ul>
+              <li data-i18n="hero.card1">Automatiza tareas repetitivas</li>
+              <li data-i18n="hero.card2">Acelera la creación de contenido</li>
+              <li data-i18n="hero.card3">Mejora la atención al cliente</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section intro">
+        <div class="section-header">
+          <p class="eyebrow" data-i18n="intro.eyebrow">Concepto esencial</p>
+          <h2 data-i18n="intro.title">¿Qué es la inteligencia artificial?</h2>
+        </div>
+        <div class="content-grid">
+          <div class="card">
+            <h3 data-i18n="intro.card1Title">Definición</h3>
+            <p data-i18n="intro.card1Text">
+              La inteligencia artificial es la capacidad de un sistema para aprender de datos, reconocer patrones y tomar decisiones o generar contenido útil.
+            </p>
+          </div>
+          <div class="card">
+            <h3 data-i18n="intro.card2Title">Aplicaciones reales</h3>
+            <p data-i18n="intro.card2Text">
+              Se usa en atención al cliente, marketing, diseño, análisis de datos, educación, salud y automatización de procesos.
+            </p>
+          </div>
+          <div class="card">
+            <h3 data-i18n="intro.card3Title">Beneficios principales</h3>
+            <p data-i18n="intro.card3Text">
+              Aumenta la productividad, reduce tiempos, mejora la precisión y permite escalar ideas con menos recursos.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section insights" id="insights">
+        <div class="section-header">
+          <p class="eyebrow" data-i18n="insights.eyebrow">Datos y resultados</p>
+          <h2 data-i18n="insights.title">La IA ya está marcando una diferencia real</h2>
+          <p class="section-copy" data-i18n="insights.subtitle">
+            Estas métricas ayudan a entender por qué cada vez más empresas están incorporando IA en sus procesos diarios.
+          </p>
+        </div>
+
+        <div class="insights-grid">
+          <article class="card chart-card">
+            <h3 data-i18n="insights.chartTitle">Tendencia de adopción</h3>
+            <p data-i18n="insights.chartText">El crecimiento de la IA se acelera por su capacidad para ahorrar tiempo y mejorar la calidad del trabajo.</p>
+            <div class="chart-wrap">
+              <svg viewBox="0 0 320 180" role="img" aria-label="Gráfico de adopción de IA">
+                <line x1="20" y1="150" x2="300" y2="150" stroke="rgba(255,255,255,0.2)" stroke-width="1"></line>
+                <line x1="20" y1="110" x2="300" y2="110" stroke="rgba(255,255,255,0.12)" stroke-width="1"></line>
+                <line x1="20" y1="70" x2="300" y2="70" stroke="rgba(255,255,255,0.12)" stroke-width="1"></line>
+                <path d="M20 135 C60 124, 90 110, 120 100 S180 75, 220 80 S280 88, 300 60" fill="none" stroke="#4fd1c5" stroke-width="4" stroke-linecap="round"></path>
+                <path d="M20 145 C60 132, 90 118, 120 112 S180 100, 220 96 S280 92, 300 78" fill="none" stroke="#7c8cff" stroke-width="4" stroke-linecap="round"></path>
+                <circle cx="120" cy="100" r="6" fill="#4fd1c5"></circle>
+                <circle cx="220" cy="80" r="6" fill="#7c8cff"></circle>
+                <circle cx="300" cy="60" r="6" fill="#7c8cff"></circle>
+              </svg>
+            </div>
+            <div class="legend">
+              <span><span class="dot dot-accent"></span>Productividad</span>
+              <span><span class="dot dot-accent-2"></span>Adopción</span>
+            </div>
+          </article>
+
+          <div class="insight-stack">
+            <div class="metric-grid">
+              <div class="metric-card">
+                <strong>+42%</strong>
+                <span data-i18n="insights.metric1">Productividad en equipos creativos</span>
+              </div>
+              <div class="metric-card">
+                <strong>3h/sem</strong>
+                <span data-i18n="insights.metric2">Tiempo recuperado por automatización</span>
+              </div>
+              <div class="metric-card">
+                <strong>87%</strong>
+                <span data-i18n="insights.metric3">Empresas con piloto de IA activo</span>
+              </div>
+            </div>
+
+            <div class="use-cases-card">
+              <h3 data-i18n="insights.useCasesTitle">Casos de uso más habituales</h3>
+              <ul>
+                <li>
+                  <div class="bar-label"><span data-i18n="insights.useCase1">Atención al cliente</span><strong>92%</strong></div>
+                  <div class="bar"><span style="width: 92%"></span></div>
+                </li>
+                <li>
+                  <div class="bar-label"><span data-i18n="insights.useCase2">Contenido y marketing</span><strong>85%</strong></div>
+                  <div class="bar"><span style="width: 85%"></span></div>
+                </li>
+                <li>
+                  <div class="bar-label"><span data-i18n="insights.useCase3">Análisis de datos</span><strong>78%</strong></div>
+                  <div class="bar"><span style="width: 78%"></span></div>
+                </li>
+                <li>
+                  <div class="bar-label"><span data-i18n="insights.useCase4">Automatización de procesos</span><strong>90%</strong></div>
+                  <div class="bar"><span style="width: 90%"></span></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section tools" id="tools">
+        <div class="section-header">
+          <p class="eyebrow" data-i18n="tools.eyebrow">Comparativa</p>
+          <h2 data-i18n="tools.title">Las mejores IA del mercado</h2>
+          <p class="section-copy" data-i18n="tools.subtitle">
+            Comparamos las plataformas más usadas según propósito, facilidad de uso y precio mensual.
+          </p>
+        </div>
+
+        <div class="tool-grid">
+          <article class="tool-card">
+            <h3>ChatGPT</h3>
+            <p data-i18n="tools.chatgpt">Ideal para crear contenido, responder preguntas y apoyar tareas de productividad.</p>
+            <div class="meta-row"><span data-i18n="tools.for">Para</span><strong data-i18n="tools.chatgptUse">Asistentes, escritura y análisis</strong></div>
+            <div class="meta-row"><span data-i18n="tools.price">Precio</span><strong>Free / $20 USD</strong></div>
+          </article>
+
+          <article class="tool-card">
+            <h3>Claude</h3>
+            <p data-i18n="tools.claude">Muy valorada para lectura de documentos largos, análisis profundo y redacción de calidad.</p>
+            <div class="meta-row"><span data-i18n="tools.for">Para</span><strong data-i18n="tools.claudeUse">Investigación, documentos y estrategia</strong></div>
+            <div class="meta-row"><span data-i18n="tools.price">Precio</span><strong>$20 USD</strong></div>
+          </article>
+
+          <article class="tool-card">
+            <h3>Gemini</h3>
+            <p data-i18n="tools.gemini">Excelente para usuarios de Google Workspace y entornos colaborativos.</p>
+            <div class="meta-row"><span data-i18n="tools.for">Para</span><strong data-i18n="tools.geminiUse">Productividad y ecosistema Google</strong></div>
+            <div class="meta-row"><span data-i18n="tools.price">Precio</span><strong>Free / $19.99 USD</strong></div>
+          </article>
+
+          <article class="tool-card">
+            <h3>Microsoft Copilot</h3>
+            <p data-i18n="tools.copilot">Muy útil para empresas que ya trabajan con Microsoft 365, Excel y Teams.</p>
+            <div class="meta-row"><span data-i18n="tools.for">Para</span><strong data-i18n="tools.copilotUse">Empresas y oficinas</strong></div>
+            <div class="meta-row"><span data-i18n="tools.price">Precio</span><strong>$30 USD</strong></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section process" id="process">
+        <div class="section-header">
+          <p class="eyebrow" data-i18n="process.eyebrow">Implementación sencilla</p>
+          <h2 data-i18n="process.title">Cómo usar la inteligencia artificial paso a paso</h2>
+        </div>
+        <div class="steps">
+          <div class="step-card">
+            <span>1</span>
+            <h3 data-i18n="process.step1Title">Define un objetivo claro</h3>
+            <p data-i18n="process.step1Text">Selecciona si quieres automatizar texto, generar ideas, analizar datos o mejorar atención al cliente.</p>
+          </div>
+          <div class="step-card">
+            <span>2</span>
+            <h3 data-i18n="process.step2Title">Elige la herramienta adecuada</h3>
+            <p data-i18n="process.step2Text">Compara funciones, integración y precio para encontrar el mejor equilibrio entre calidad y presupuesto.</p>
+          </div>
+          <div class="step-card">
+            <span>3</span>
+            <h3 data-i18n="process.step3Title">Prueba y mejora prompts</h3>
+            <p data-i18n="process.step3Text">Cuanto más claro sea el mensaje, mejores resultados obtendrás. Ajusta instrucciones y contexto.</p>
+          </div>
+          <div class="step-card">
+            <span>4</span>
+            <h3 data-i18n="process.step4Title">Implementa con control</h3>
+            <p data-i18n="process.step4Text">Revisa resultados, protege datos sensibles y combina la IA con procesos humanos para un uso responsable.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section pricing">
+        <div class="section-header">
+          <p class="eyebrow" data-i18n="pricing.eyebrow">Decisión inteligente</p>
+          <h2 data-i18n="pricing.title">¿Para quién conviene cada IA?</h2>
+        </div>
+        <div class="pricing-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th data-i18n="pricing.tool">Herramienta</th>
+                <th data-i18n="pricing.use">Mejor para</th>
+                <th data-i18n="pricing.value">Valor</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>ChatGPT</td>
+                <td data-i18n="pricing.chatgptUse">Usuarios individuales y equipos creativos</td>
+                <td data-i18n="pricing.chatgptValue">Excelente relación calidad-precio</td>
+              </tr>
+              <tr>
+                <td>Claude</td>
+                <td data-i18n="pricing.claudeUse">Análisis de documentos y contenido largo</td>
+                <td data-i18n="pricing.claudeValue">Precisión y redacción superior</td>
+              </tr>
+              <tr>
+                <td>Gemini</td>
+                <td data-i18n="pricing.geminiUse">Equipos que usan Google Workspace</td>
+                <td data-i18n="pricing.geminiValue">Integración muy completa</td>
+              </tr>
+              <tr>
+                <td>Copilot</td>
+                <td data-i18n="pricing.copilotUse">Empresas con Microsoft 365</td>
+                <td data-i18n="pricing.copilotValue">Potencia en productividad corporativa</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p data-i18n="footer.text">Digital Pages crea experiencias digitales claras, modernas y preparadas para el futuro.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
